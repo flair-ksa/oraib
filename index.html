@@ -5,7 +5,7 @@
 <head>
 	<title></title>
 	<meta charset="utf-8" />
-	<html dir="rtl" lang="ar">
+	<html dir="rtl">
 
 	</html>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -18,9 +18,14 @@
 </head>
 
 <body class="is-preload">
-
 	<!-- Wrapper -->
 	<div id="wrapper">
+
+		<div class="lang">
+			<button type="button" id="arabic">عربي</button>
+			|
+			<button type="button" id="english">Eng</button>
+		</div>
 
 		<!-- Header -->
 		<header id="header">
@@ -37,21 +42,24 @@
 			</div>
 			<nav>
 				<ul>
-					<li><a href="#intro">المنيو 🥙 | Menu </a></li>
-
-					<li><a href="https://maps.app.goo.gl/Yw2smHSxHyT1P61p8?g_st=iwb">لا تنسى تقيمنا &#128205; | Rate us
-						</a></li>
-
-					<li><a href="tel:+966508449883">للطلب &#128241; | contact us
-						</a></li>
-
+					<li><a href="#intro" id="menu">المنيو 🥙 </a></li>
 				</ul>
+				<ul>
+					<li>
+						<a href="https://maps.app.goo.gl/Yw2smHSxHyT1P61p8?g_st=iwb" id="link">لا تنسى تقيمنا &#128205;</a>
+					</li>
+				</ul>
+				<ul>
+					<li>
+						<a href="tel:+966508449883" id="phone"> للطلب &#128241;</a>
+					</li>
 			</nav>
 			<div class="social">
 					<ul class="icons">
 						<li><a href="https://instagram.com/oraib.sa?igshid=NmNmNjAwNzg=" class="fa-brands fa-instagram"> <span class="label"></span></a></li>
 						<li><a href="https://www.snapchat.com/add/oraib.sa" class="fa-brands fa-snapchat"> <span class="label"></span></a></li>
-<!-- 						<li><a href="https://www.snapchat.com/add/oraib.sa" class="fa-brands fa-google"> <span class="label"></span></a></li> -->
+						<li><a href="https://www.snapchat.com/add/oraib.sa" class="fa-brands fa-google"> <span class="label"></span></a></li>
+						<li><a href="https://www.tiktok.com/@kushmah.sa?_t=8Wud6niDMYr&_r=1" class="fa-brands fa-tiktok"> <span class="label"></span></a></li>
 					</ul>
 			</div>
 		</header>
@@ -75,7 +83,6 @@
 				<p><a href=></p>
 				<p></p>
 			</article> -->
-
 		</div>
 
 		<!-- Footer -->
@@ -96,6 +103,8 @@
 	<script src="assets/js/breakpoints.min.js"></script>
 	<script src="assets/js/util.js"></script>
 	<script src="assets/js/main.js"></script>
+
+	<script src="./assets/js/i18n.js"></script>
 
 </body>
 
